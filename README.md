@@ -82,6 +82,16 @@ For additional JavaScript hackery, the return value of the JSSpeccy function cal
 * `emu.exit()` - immediately stop the emulator and remove it from the document
 
 
+## Build
+
+Build release:
+
+- `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash`
+- `nvm install 16.3.0`
+- `npm install`
+- `npm run build:release`
+
+
 ## Licence
 
 JSSpeccy 3 is licensed under the GPL version 3 - see COPYING.
